@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class OpenBrowserTest {
-	@Test
+	@Test(groups="Smoke")
 	public void openBrowser() {
 		
 		System.out.println("Getting data from cmd");
@@ -23,7 +23,7 @@ public class OpenBrowserTest {
 		driver.close();		
 	}
 	
-	@Test
+	@Test(groups="Regression")
 	public void navigateBrowser() {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.flipkart.com");

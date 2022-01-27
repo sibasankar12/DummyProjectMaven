@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-26T16:25:19 IST" name="Default suite" finished-at="2022-01-26T16:25:22 IST" duration-ms="3623">
+    <groups>
+    </groups>
+    <test started-at="2022-01-26T16:25:19 IST" name="Default test" finished-at="2022-01-26T16:25:22 IST" duration-ms="3623">
+      <class name="dummy.transfer4.test.DemoDrishyaTest">
+        <test-method signature="createOrgaTest()[pri:0, instance:dummy.transfer4.test.DemoDrishyaTest@20f5239f]" started-at="2022-01-26T16:25:19 IST" name="createOrgaTest" finished-at="2022-01-26T16:25:22 IST" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgaTest -->
+        <test-method signature="modifyOrgaTest()[pri:0, instance:dummy.transfer4.test.DemoDrishyaTest@20f5239f]" started-at="2022-01-26T16:25:22 IST" name="modifyOrgaTest" finished-at="2022-01-26T16:25:22 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgaTest -->
+      </class> <!-- dummy.transfer4.test.DemoDrishyaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
